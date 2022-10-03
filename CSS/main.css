@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 1px solid red;
+}
+#bod{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    height: 730px;
+    
+}
+
+h1{
+    text-align: center;
+    column-gap: 2px;
+    color: rgb(96, 96, 96);
+    text-shadow: 2px 2px 2px gray;
+    padding: 10px;
+}
+#rock{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 20px;
+    border: 3px solid rgb(255, 108, 108);
+    box-shadow: 10px 5px 5px gray;
+    position: relative;
+}
+#paper{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border: 3px solid rgb(255, 108, 108);
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px gray;
+    position: relative;
+}
+#scissors{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border: 3px solid rgb(255, 108, 108);
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px gray;
+    position: relative;
+}
+#backSide{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border: 3px solid rgb(255, 108, 108);
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgb(248, 97, 97);
+    position: absolute;
+    
+
+}
+#compChioce{
+    width: 350px;
+    position: relative;
+    left: 75%;
+}
+h2{
+    right: 90px;
+    bottom: 10px;
+    width: 200px;
+    height: 20px;
+    position: absolute;
+}
+h3{
+    position: relative;
+    left: 30%;
+    width: 200px;
+}
+#foot{
+    background-color: rgb(84, 132, 186);
+    border-radius: 5px;
+    
+}
+p{
+    text-align: center;
+    padding: 10px;
+}
+#start{
+    margin: 10px;
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#start:hover {
+  background-color: #fff;
+}
+
+#start:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+#stop{
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#stop:hover {
+  background-color: #fff;
+}
+
+#stop:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+#newDiv #rock1{
+    position: absolute;
+    visibility: hidden;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border: 3px solid rgb(255, 108, 108);
+    border-radius: 15px;
+}
+#newDiv #paper1{
+    position: absolute;
+    visibility: hidden;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border: 3px solid rgb(255, 108, 108);
+    border-radius: 15px;
+}
+#newDiv #scissors1{
+    position: absolute;
+    visibility: hidden;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border: 3px solid rgb(255, 108, 108);
+    border-radius: 15px;
+    }
+#displyRes{
+    position: relative;
+    width: auto;
+    height: auto;
+    bottom: 0px;
+    left: 200px;
+}
+#yw{
+    position:absolute;
+    font-size: 80px;
+    visibility: hidden;
+    color:greenyellow;
+    text-shadow: 3px 3px green;
+}
+#cw{
+    position:absolute;
+    font-size: 80px;
+    visibility: hidden;
+    color:red;
+    text-shadow: 3px 3px rgb(194, 0, 0);
+}
+#e{
+    position:absolute;
+    font-size: 80px;
+    visibility: hidden;
+    color: lightblue;
+    text-shadow: 3px 3px rgb(51, 175, 216);
+}
+
+
